@@ -1,0 +1,75 @@
+#tlo {
+    width: 390px;
+    height: 390px;
+    position: relative;
+}
+.kw {
+    width: 126px;
+    height: 126px;
+    position: absolute;
+    border: 2px white
+}
+.ko {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 33px;
+    left: 33px;
+    border: 1px solid black
+}
+#k2 {
+    left: 130px
+}
+#k3 {
+    left: 260px
+}
+#k4 {
+    top: 130px
+}
+#k5 {
+    top: 130px;
+    left: 130px;
+}
+#k6 {
+    top: 130px;
+    left: 260px;
+}
+#k7 {
+    top: 260px;
+}
+#k8 {
+    top: 260px;
+    left: 130px
+}
+#k9 {
+    top: 260px;
+    left: 260px
+}
+#k1, #c5 {
+    background-color: red
+}
+#k2, #c6 {
+    background-color: blue
+}
+#k3, #c4 {
+    background-color: green
+}
+#k4, #c8 {
+    background-color: yellow
+}
+#k5, #c9 {
+    background-color: black
+}
+#k6, #c7 {
+    background-color: orange
+}
+#k7, #c3 {
+    background-color: darkmagenta
+}
+#k8, #c2 {
+    background-color: gray
+}
+#k9, #c1 {
+    background-color: pink
+}
