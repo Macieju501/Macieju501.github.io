@@ -1,0 +1,43 @@
+form {
+    background-color: #213b50;
+    padding: 20px;
+    color: #fff;
+    width: 600px;
+    margin: 50px;
+}
+
+form input, form select{
+    margin-bottom: 10px;
+}
+
+form label{display: block}
+
+form label[for='agreement'] {
+    display: inline
+}
+
+input:focus {
+    background-color: #4e708c;
+}
+
+form select, form input, form textarea:{
+width: 300px;
+background-color: #2b4a64;
+color: #fff;
+border: #2b4a64 1px solid;
+height: 25px
+}
+
+form select:focus, form input:focus, form textarea:focus{
+    background-color: #2b4a64;
+    border: #fff, 1px;
+    outline: none;
+}
+
+form input[type='submit']{
+    background-color: green;
+    border: none;
+    color:white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}

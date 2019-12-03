@@ -1,0 +1,10 @@
+* {color: green}
+p {color: blue}
+#kasia{background-color: burlywood}
+.lorak{color: chocolate}
+div.lorak {color: darkred}
+a > span {background-color: gold}
+ul a {text-decoration: palegoldenrod;
+color: turquoise}
+li#pierwszy ~ li{background-color: rosybrown}
+li#pierwszy + li{background-color: yellowgreen}

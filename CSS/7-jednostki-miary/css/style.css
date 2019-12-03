@@ -1,0 +1,26 @@
+#container{
+    font-size: 20px;
+}
+
+#container > div {
+    margin-bottom: 15px;
+    height: 50px;
+}
+
+#pixels {
+    width: 400px;
+    background-color: violet
+}
+#em {
+    width: 20em;
+    background-color: olivedrab
+}
+#percent {
+
+    width: 50%;
+    background-color: red
+}
+#vh {
+    width: 100vh;
+    background-color: aqua
+}
