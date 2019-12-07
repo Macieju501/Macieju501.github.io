@@ -1,0 +1,19 @@
+.flex-item {
+    color: #fff;
+    font-family: 'Lato', 'sans-serif';
+    border: 1px solid olive;
+    margin: 5px;
+    background-color: chocolate;
+    flex-basis: 27%;
+}
+
+.flex-item:nth-last-of-type(odd){
+    background-color: blue;
+
+}
+
+.container {
+    border: 5px dashed green;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
