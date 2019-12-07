@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans', sans-serif;
+    color: #777;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+hr{
+    background-color: #007bff;
+    border: 0;
+    height: 1px;
+    width: 70px;
+}
+
+.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px #007bff;
+    padding: 14px 20px;
+    display: inline-block;
+    color: #333;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.btn:hover {
+    background-color: #007bff;
+    color: #fff
+}
+
+
+.header {
+    background-image: url(../img/header.jpg);
+    height: 70vh;
+    text-align: center;
+    font-size: 24px;
+    color: #007bff;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;    
+}
